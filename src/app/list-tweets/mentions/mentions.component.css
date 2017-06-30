@@ -1,0 +1,12 @@
+.alternative_cls:nth-child(odd){
+    background: #f9f9f9;
+}
+
+.white-bg{
+    background:#ffffff !important;
+}
+
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+	margin-bottom: 1px;
+}
