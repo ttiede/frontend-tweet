@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { routes } from './app.router'
 import { AppComponent } from './app.component';
+import { RelevantsComponent } from './list-tweets/relevants/relevants.component';
 import { MentionsComponent } from './list-tweets/mentions/mentions.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    RelevantsComponent,
     MentionsComponent
   ],
   imports: [
